@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intro HTML</title>
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+
+<body style="background-color: rgb(253, 248, 224)">
+    <!-- Etiquetas de titulación -->
+    <!-- alt + shift + a  para poner comentarios-->
+    <h1>Tienda de <span style="color:orangered">naranjas</span> </h1>
+    <h2>Las mejores naranjas</h2>
+    <h3>Título h3</h3>
+    <h4>Título h4</h4>
+    <h5>Título h5</h5>
+    <h6>Título h6</h6>
+
+
+    <br> <!-- Break o salto de linea -->
+    <hr> <!-- Horizontal row o linea de división -->
+    <br> <!-- Break o salto de línea -->
+
+    <!-- alt z -->
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo eveniet, veniam dolores itaque, deleniti
+        consequuntur voluptates deserunt ipsa temporibus fuga nemo cum voluptatem! Veniam perspiciatis assumenda
+        similique cum doloribus quasi?Naranjas en nuestra granja, vas a compras las mejores naranjas
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam quibusdam tempora necessitatibus expedita
+        eveniet explicabo libero omnis eum temporibus. Odit nisi doloremque veniam officiis rerum blanditiis vel animi
+        maxime pariatur!
+    </p>
+    <!-- Etiqueta de imagen -->
+    <!-- alt lo que se escucha cuando abren mi pagina  -->
+    <!-- tittle, lo que se muestra en el tooltip de la imagen -->
+    <!-- si pones alt + flecha arriba, pone lo que selecciones entre el figure o dentro de otra etiqueta -->
+    <figure>
+        <img src="./images/oranges.jpg" width="250px" alt="Naranjas jugosas" title="Naranjas">
+    </figure>
+
+    <br>
+    <hr>
+    <br>
+    <h1>Listas ordenadas</h1>
+
+    <ol>
+        <li>Crear la carpeta de proyecto</li>
+        <li>Vincular la carpeta de proyecto a vscode</li>
+        <li>Crear archivo index.html</li>
+        <li>Generar estructura básica de HTML</li>
+
+    </ol>
+    <br>
+    <hr>
+    <br>
+
+    <h1>Listas no ordenadas</h1>
+
+    <ul>
+        <!-- convertir cada fruta en eun enlace, el enlace nos debe direccionar a la wikipedia con info de la fruta -->
+        <li>Manzana</li>
+        <li>Piña</li>
+        <li>Uvas</li>
+        <li>Fresas</li>
+    </ul>
+
+    <!-- Hipervínculos o enlaces -->
+    <!-- target: indica donde se abre el enlace -->
+    <!-- alt sostenido para escibir o copiar en distintos renglones -->
+
+    <a href="http://www.jango.com" target="_blank">Escucha radio online</a>
+
+    <br>
+    <hr>
+    <br>
+
+    <li><a href="https://es.wikipedia.org/wiki/Manzana" target="_blank">Manzanas</a></li>
+    <li><a href="https://es.wikipedia.org/wiki/Ananas_comosus" target="_blank">Piña</a></li>
+    <li><a href="https://es.wikipedia.org/wiki/Uva" target="_blank">Uvas</a></li>
+    <li><a href="https://es.a.org/wiki/Fragaria" target="_blank">Fresas</a></li>
+
+    <!-- table -->
+    <!-- desarrollar una tabla de posiciones para una carrera de animales -->
+    <br>
+    <hr>
+    <br>
+
+    <table>
+        <tr>
+            <th>Posición</th>
+            <th>Animal</th>
+            <th>País</th>
+            <th>Biografía</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Halcón</td>
+            <td>Japón</td>
+            <td><a href="https://es.wikipedia.org/wiki/Falco" target="_blank">+ Info</a></td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Guepardo</td>
+            <td>México</td>
+            <td><a href="https://es.wikipedia.org/wiki/Acinonyx_jubatus" target="_blank">+ Info</a></td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Perro Galgo</td>
+            <td>España</td>
+            <td><a href="https://es.wikipedia.org/wiki/Galgo_espa%C3%B1ol" target="_blank">+ Info</a></td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Gato</td>
+            <td>México</td>
+            <td><a href="https://es.wikipedia.org/wiki/Felis_silvestris_catus" target="_blank">+ Info</a></td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>Conejo</td>
+            <td>África</td>
+            <td><a href="https://es.wikipedia.org/wiki/Oryctolagus_cuniculus" target="_blank">+ Info</a></td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>Venado</td>
+            <td>Canada</td>
+            <td><a href="https://es.wikipedia.org/wiki/Cervidae" target="_blank">+ Info</a></td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>Tortuga</td>
+            <td>México</td>
+            <td><a href="https://es.wikipedia.org/wiki/Testudines" target="_blank">+ Info</a></td>
+        </tr>
+        <tr>
+            <td>8</td>
+            <td>Oso Panda</td>
+            <td>China</td>
+            <td><a href="https://es.wikipedia.org/wiki/Ailuropoda_melanoleuca" target="_blank">+ Info</a></td>
+        </tr>
+    </table>
+
+
+    <br>
+    <hr>
+    <br>
+
+    <h2>Formularios</h2>
+
+    <form>
+        <div>
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" placeholder="Escibe tu Nombre" value="Pepe">
+        </div>
+        <div>
+            <label for="correo">Correo</label>
+            <input type="email" id="correo" placeholder="Escribe tu email">
+        </div>
+        <div>
+            <label for="pasword">Password</label>
+            <input type="password" id="password" placeholder="Escribe tu contraseña">
+        </div>
+        <div>
+            <input type="radio" name="frutas" id="manzana" value="manzana">
+            <label for="manzana">Manzana</label>
+            <br>
+            <input type="radio" name="frutas" id="piña" value="piña">
+            <label for="piña">Piña</label>
+            <br>
+            <input type="radio" name="frutas" id="uvas" value="uvas">
+            <label for="uvas">Uvas</label>
+            <br>
+            <input type="radio" name="frutas" id="fresa" value="fresas">
+            <label for="fresa">Fresa</label>
+        </div>
+        <input type="submit" value="Enviar información">
+
+
+
+    </form>
+
+</body>
+
+</html>
