@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration:none; 
+    box-sizing: border-box;   
+}
+#btnGuardar { 
+    padding: 17px; 
+    background-color: white;
+    color: black; 
+    font-weight: bold;
+    border-radius: 25px;
+    border-color: white;
+    border:none;
+ 
+
+  } 
+  #btnGuardar:hover { 
+    padding: 17px; 
+    background: black; 
+    color: white; 
+  } 
+
+  #btnExplorar { 
+    padding: 17px; 
+    background-color: white;
+    color: black; 
+    font-weight: bold;
+    border-radius: 25px;
+    border-color: white;
+    border:none;
+
+  } 
+  #btnExplorar:hover { 
+    padding: 17px; 
+    background: black; 
+    color: white; 
+  } 
+  #btnCrear { 
+    padding: 17px; 
+    background-color: white;
+    color: black; 
+    font-weight: bold;
+    border-radius: 25px;
+    border-color: white;
+    border:none;
+
+  } 
+  #btnCrear:hover { 
+    padding: 20px; 
+    background: black; 
+    color: white; 
+  } 
+
+
+
+
+
+
+
+
